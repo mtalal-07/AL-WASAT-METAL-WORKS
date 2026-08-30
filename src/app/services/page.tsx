@@ -31,7 +31,7 @@ export default function ServicesPage() {
         <div className="flex flex-col gap-8 min-[901px]:flex-row min-[901px]:items-center min-[901px]:justify-between min-[901px]:gap-16">
           <div className="min-[901px]:max-w-[560px]">
             <SectionHeading tone="light">{cta.heading}</SectionHeading>
-            <p className="mt-4 text-[13px] leading-[22px] text-white/78">
+            <p className="mt-4 text-[15px] leading-[24px] text-white/78">
               {cta.body}
             </p>
           </div>

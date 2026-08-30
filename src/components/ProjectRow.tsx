@@ -39,11 +39,11 @@ export function ProjectRow({ project, index }: Props) {
           <span>{project.category}</span>
         </div>
 
-        <h3 className="mt-5 text-[22px] font-semibold leading-[1.25] tracking-[-0.01em] text-ink transition-colors group-hover:text-indigo sm:text-[26px]">
+        <h3 className="mt-5 text-[25px] font-semibold leading-[1.25] tracking-[-0.01em] text-ink transition-colors group-hover:text-indigo sm:text-[29px]">
           {project.title}
         </h3>
 
-        <p className="mt-3 max-w-[460px] text-[13px] leading-[22px] text-body">
+        <p className="mt-3 max-w-[460px] text-[15px] leading-[24px] text-body">
           {project.description}
         </p>
 

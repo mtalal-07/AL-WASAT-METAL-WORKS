@@ -25,10 +25,10 @@ export function PostCard({ title, excerpt, date, image }: PostCardProps) {
           {date}
         </p>
       )}
-      <h3 className={`${date ? "mt-2" : "mt-5"} text-[17px] font-semibold leading-[1.35] text-ink`}>
+      <h3 className={`${date ? "mt-2" : "mt-5"} text-[19px] font-semibold leading-[1.35] text-ink`}>
         {title}
       </h3>
-      <p className="mt-2 text-[13px] leading-[22px] text-body">{excerpt}</p>
+      <p className="mt-2 text-[15px] leading-[24px] text-body">{excerpt}</p>
     </article>
   );
 }

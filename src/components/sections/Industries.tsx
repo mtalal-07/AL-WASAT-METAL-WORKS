@@ -16,7 +16,7 @@ export function Industries() {
       <div className="container-x">
         {/* Statement */}
         <div className="max-w-[520px]">
-          <p className="text-[13px] leading-[22px] text-white/78">{statement}</p>
+          <p className="text-[15px] leading-[24px] text-white/78">{statement}</p>
           <div className="mt-6">
             <TextLink label={link.label} href={link.href} tone="light" />
           </div>

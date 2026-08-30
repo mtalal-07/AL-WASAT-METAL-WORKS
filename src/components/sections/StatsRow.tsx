@@ -13,7 +13,7 @@ export function StatsRow() {
           <div className="min-[901px]:w-[30%]">
             <Eyebrow label={eyebrow} />
           </div>
-          <p className="max-w-[520px] text-[19px] leading-[30px] text-ink min-[901px]:w-[70%]">
+          <p className="max-w-[520px] text-[22px] leading-[33px] text-ink min-[901px]:w-[70%]">
             {lead}
           </p>
         </div>

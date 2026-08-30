@@ -15,7 +15,7 @@ export function SplitStatement({ heading, paragraphs, link, tone = "dark" }: Pro
   return (
     <div className="flex flex-col gap-10 min-[901px]:flex-row min-[901px]:gap-[130px]">
       <h2
-        className={`text-[26px] font-semibold leading-[1.25] tracking-[-0.01em] sm:text-[34px] min-[901px]:w-[42%] ${headingColor}`}
+        className={`text-[30px] font-semibold leading-[1.25] tracking-[-0.01em] sm:text-[40px] min-[901px]:w-[42%] ${headingColor}`}
       >
         {heading}
       </h2>
@@ -24,7 +24,7 @@ export function SplitStatement({ heading, paragraphs, link, tone = "dark" }: Pro
         {paragraphs.map((p, i) => (
           <p
             key={i}
-            className={`text-[13px] leading-[22px] ${bodyColor} ${
+            className={`text-[15px] leading-[24px] ${bodyColor} ${
               i > 0 ? "mt-[18px]" : ""
             }`}
           >

@@ -34,10 +34,10 @@ export function ClosingCta() {
               />
             </div>
             <div className="border-x border-b border-hairline bg-white p-8">
-              <h2 className="max-w-[280px] text-[14px] font-semibold leading-[1.45] text-ink">
+              <h2 className="max-w-[280px] text-[16px] font-semibold leading-[1.45] text-ink">
                 {heading}
               </h2>
-              <p className="mt-3 max-w-[280px] text-[11px] leading-[1.75] text-body-muted">
+              <p className="mt-3 max-w-[280px] text-[13px] leading-[1.75] text-body-muted">
                 {body}
               </p>
               <div className="mt-6">

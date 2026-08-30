@@ -6,6 +6,7 @@ import { Industries } from "@/components/sections/Industries";
 import { CapabilitiesDetail } from "@/components/sections/CapabilitiesDetail";
 import { RefineryPhoto } from "@/components/sections/RefineryPhoto";
 import { FeatureTriptych } from "@/components/sections/FeatureTriptych";
+import { FeaturedProjects } from "@/components/sections/FeaturedProjects";
 import { YellowPanel } from "@/components/sections/YellowPanel";
 import { StatsRow } from "@/components/sections/StatsRow";
 import { ClosingCta } from "@/components/sections/ClosingCta";
@@ -21,6 +22,7 @@ export default function Home() {
       <CapabilitiesDetail />
       <RefineryPhoto />
       <FeatureTriptych />
+      <FeaturedProjects />
       <YellowPanel />
       <StatsRow />
       <ClosingCta />

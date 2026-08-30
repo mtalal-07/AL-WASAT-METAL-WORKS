@@ -16,9 +16,9 @@ export const images = {
     alt: "Large industrial processing plant exterior with steel ducting against a blue sky",
   },
 
-  // 2 — Video: CNC cutting head working a steel plate, sparks
+  // 2 — Process showcase: local asset at metalix/public/images/videoImage.jpg
   video: {
-    src: u("1735494033576-9c882e80504c", 1600),
+    src: "/images/videoImage.jpg",
     alt: "Close-up of a CNC cutting head cutting a steel plate with a burst of sparks",
   },
 
@@ -55,10 +55,10 @@ export const images = {
     alt: "Tightly packed bundle of steel tubes seen end-on under warehouse lighting",
   },
 
-  // 9 — Full-bleed facility photo: refinery across a green field
+  // 9 — Full-bleed facility photo: local asset at metalix/public/images/Warehouse.jpg
   refinery: {
-    src: u("1516937941344-00b4e0337589", 2000),
-    alt: "A large refinery with distillation columns and stacks seen across an open green field",
+    src: "/images/Warehouse.jpg",
+    alt: "Steel fabrication warehouse interior",
   },
 
   // 10 — Feature: fabricated steel assembly, near-cutout against a pale wall

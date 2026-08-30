@@ -17,8 +17,8 @@ function CardText({
 }: Pick<CapabilityCardProps, "title" | "description">) {
   return (
     <div className="text-center">
-      <h3 className="text-[17px] font-semibold leading-[1.35] text-ink">{title}</h3>
-      <p className="mx-auto mt-2 max-w-[220px] text-[12px] leading-[1.65] text-body-muted">
+      <h3 className="text-[19px] font-semibold leading-[1.35] text-ink">{title}</h3>
+      <p className="mx-auto mt-2 max-w-[220px] text-[14px] leading-[1.65] text-body-muted">
         {description}
       </p>
     </div>

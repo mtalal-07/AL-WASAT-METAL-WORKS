@@ -29,14 +29,17 @@ export function Hero() {
       />
 
       <div className="container-x flex flex-1 flex-col items-center pt-[128px] pb-14 text-center lg:pt-[144px]">
-        <h1 className="max-w-[15ch] text-balance text-[28px] font-semibold leading-[1.12] tracking-[-0.02em] text-white sm:max-w-[20ch] sm:text-[40px] lg:text-[56px]">
+        {/* Spacer — centers the heading vertically */}
+        <div className="flex-1" />
+
+        <h1 className="max-w-[15ch] text-balance text-[32px] font-semibold leading-[1.12] tracking-[-0.02em] text-white sm:max-w-[20ch] sm:text-[46px] lg:text-[64px]">
           {heading}
         </h1>
 
         {/* Spacer — pushes the copy + CTAs into the lower third, over the building */}
         <div className="min-h-[140px] flex-1" />
 
-        <p className="max-w-[520px] text-[13px] leading-[22px] text-white/80">
+        <p className="max-w-[520px] text-[15px] leading-[24px] text-white/80">
           {subheading}
         </p>
 

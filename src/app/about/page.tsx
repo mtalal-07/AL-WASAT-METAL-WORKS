@@ -47,7 +47,7 @@ export default function AboutPage() {
 
       <Section background="white" paddingY="lg">
         <SectionHeading>{staff.heading}</SectionHeading>
-        <p className="mt-4 max-w-[620px] text-[14px] leading-[1.7] text-body">
+        <p className="mt-4 max-w-[620px] text-[16px] leading-[1.7] text-body">
           {staff.body}
         </p>
 
@@ -63,7 +63,7 @@ export default function AboutPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="mt-4 text-[15px] font-semibold leading-[1.35] text-ink">
+              <h3 className="mt-4 text-[17px] font-semibold leading-[1.35] text-ink">
                 {m.role}
               </h3>
             </div>

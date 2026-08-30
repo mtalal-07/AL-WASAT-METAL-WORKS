@@ -12,7 +12,7 @@ export function CapabilitiesDetail() {
       <div className="container-x">
         {/* Top zone — lead paragraph, offset right */}
         <div className="min-[901px]:pl-[30%]">
-          <p className="max-w-[520px] text-[19px] leading-[30px] text-ink">{body}</p>
+          <p className="max-w-[520px] text-[22px] leading-[33px] text-ink">{body}</p>
         </div>
 
         {/* Bottom zone */}

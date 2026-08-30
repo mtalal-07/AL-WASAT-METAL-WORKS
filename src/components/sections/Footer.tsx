@@ -3,7 +3,7 @@ import { footer } from "@/content/site-data";
 
 function ColHeading({ children }: { children: React.ReactNode }) {
   return (
-    <h3 className="text-[15px] font-semibold leading-[1.4] text-ink">{children}</h3>
+    <h3 className="text-[17px] font-semibold leading-[1.4] text-ink">{children}</h3>
   );
 }
 

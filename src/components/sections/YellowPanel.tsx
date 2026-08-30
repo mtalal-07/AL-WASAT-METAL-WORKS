@@ -14,7 +14,7 @@ export function YellowPanel() {
         {/* Left — yellow panel, content bottom-left */}
         <div className="flex bg-yellow px-6 py-14 min-[901px]:w-1/2 min-[901px]:items-end min-[901px]:px-16 min-[901px]:pb-16 lg:pl-[120px]">
           <div>
-            <h2 className="text-[24px] font-semibold leading-[1.3] tracking-[-0.01em] text-ink sm:text-[30px] sm:leading-[40px]">
+            <h2 className="text-[28px] font-semibold leading-[1.3] tracking-[-0.01em] text-ink sm:text-[36px] sm:leading-[46px]">
               {headingLines.map((line, i) => (
                 <Fragment key={line}>
                   {i > 0 && <br />}
@@ -22,7 +22,7 @@ export function YellowPanel() {
                 </Fragment>
               ))}
             </h2>
-            <p className="mt-5 max-w-[360px] text-[11px] leading-[1.8] text-[#3b3b42]">
+            <p className="mt-5 max-w-[360px] text-[13px] leading-[1.8] text-[#3b3b42]">
               {body}
             </p>
             <div className="mt-7">

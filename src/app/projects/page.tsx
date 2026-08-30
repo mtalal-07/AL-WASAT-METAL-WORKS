@@ -36,7 +36,7 @@ export default function ProjectsPage() {
         className="border-t border-hairline"
       >
         <SectionHeading>{clients.heading}</SectionHeading>
-        <p className="mt-4 max-w-[520px] text-[14px] leading-[1.7] text-body">
+        <p className="mt-4 max-w-[520px] text-[16px] leading-[1.7] text-body">
           {clients.note}
         </p>
         <ul className="mt-8 flex flex-wrap gap-2.5">

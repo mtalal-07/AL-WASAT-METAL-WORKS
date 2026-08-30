@@ -16,7 +16,7 @@ export function SectionHeading({
 }: Props) {
   return (
     <h2
-      className={`text-[30px] font-semibold leading-[1.18] tracking-[-0.02em] sm:text-[38px] lg:text-[44px] ${
+      className={`text-[34px] font-semibold leading-[1.18] tracking-[-0.02em] sm:text-[42px] lg:text-[50px] ${
         tone === "light" ? "text-white" : "text-ink"
       } ${align === "center" ? "text-center" : ""} ${className}`}
     >

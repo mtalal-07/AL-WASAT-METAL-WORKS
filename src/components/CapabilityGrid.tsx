@@ -29,7 +29,7 @@ export function CapabilityGrid({
   return (
     <>
       {heading && (
-        <h2 className="text-center text-[30px] font-semibold leading-[1.18] tracking-[-0.02em] text-ink sm:text-[38px] lg:text-[44px]">
+        <h2 className="text-center text-[34px] font-semibold leading-[1.18] tracking-[-0.02em] text-ink sm:text-[42px] lg:text-[50px]">
           {heading}
         </h2>
       )}

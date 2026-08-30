@@ -36,11 +36,11 @@ export function PageHeader({ heading, lead, image }: Props) {
       )}
 
       <div className="container-x py-[72px] md:py-[96px] lg:py-[120px]">
-        <h1 className="max-w-[820px] text-[30px] font-semibold leading-[1.15] tracking-[-0.02em] text-white sm:text-[38px] lg:text-[44px]">
+        <h1 className="max-w-[820px] text-[34px] font-semibold leading-[1.15] tracking-[-0.02em] text-white sm:text-[42px] lg:text-[50px]">
           {heading}
         </h1>
         {lead && (
-          <p className="mt-5 max-w-[560px] text-[13px] leading-[22px] text-white/80">
+          <p className="mt-5 max-w-[560px] text-[15px] leading-[24px] text-white/80">
             {lead}
           </p>
         )}
