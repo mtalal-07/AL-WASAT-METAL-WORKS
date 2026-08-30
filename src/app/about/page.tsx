@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { SplitStatement } from "@/components/SplitStatement";
+import { AvatarPlaceholder } from "@/components/ui/AvatarPlaceholder";
 import { aboutPage } from "@/content/site-data";
 
 export const metadata: Metadata = {
@@ -54,15 +54,7 @@ export default function AboutPage() {
         <div className="mt-12 grid grid-cols-2 gap-6 lg:grid-cols-4">
           {staff.members.map((m) => (
             <div key={m.role}>
-              <div className="relative aspect-[4/3] w-full overflow-hidden">
-                <Image
-                  src={m.image.src}
-                  alt={m.image.alt}
-                  fill
-                  sizes="(max-width: 1024px) 45vw, 280px"
-                  className="object-cover"
-                />
-              </div>
+              <AvatarPlaceholder />
               <h3 className="mt-4 text-[17px] font-semibold leading-[1.35] text-ink">
                 {m.role}
               </h3>
