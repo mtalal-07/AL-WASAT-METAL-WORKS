@@ -22,10 +22,10 @@ export const company = {
 
 export const nav = {
   links: [
+    { label: "Home", href: "/" },
     { label: "About", href: "/about" },
     { label: "Services", href: "/services" },
     { label: "Projects", href: "/projects" },
-    { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
   ],
   cta: { label: "Get a Quote", href: "/contact" },
@@ -263,67 +263,6 @@ export const projectsPage = {
       "Intercool Central Air Conditioning",
     ],
   },
-};
-
-/* ------------------------------------------------------------------ */
-/* Blog  (placeholder — no real content in the company profile yet)    */
-/* ------------------------------------------------------------------ */
-
-export const blogPage = {
-  meta: {
-    title: "News & Insights — Al Wasat Metal Works",
-    description:
-      "Company news and updates from Al Wasat Metal Works.",
-  },
-  header: {
-    heading: "News & Insights",
-    lead: "Company news and updates. Full articles coming soon.",
-    image: images.framework,
-  },
-  posts: [
-    {
-      title: "Choosing the Right Metal for Heavy-Load Structures",
-      excerpt:
-        "How we weigh strength, corrosion resistance and cost when specifying steel, stainless steel or aluminium.",
-      date: "",
-      image: images.cap1,
-    },
-    {
-      title: "Inside Our Fabrication Workshop",
-      excerpt:
-        "A walk through our machines and tooling, and the certified team that runs them.",
-      date: "",
-      image: images.automated,
-    },
-    {
-      title: "What Code Compliance Actually Requires",
-      excerpt:
-        "The checks and drawings behind every job that meets relevant UAE codes and standards.",
-      date: "",
-      image: images.cap4,
-    },
-    {
-      title: "Engineered Studies Before Fabrication",
-      excerpt:
-        "Why our engineers run the calculations and produce detailed drawings before any cutting begins.",
-      date: "",
-      image: images.cap2,
-    },
-    {
-      title: "Installing Handrails and Platforms On Site",
-      excerpt:
-        "Coordination, safety and precision when installation moves from the workshop to the field.",
-      date: "",
-      image: images.warehouse,
-    },
-    {
-      title: "Stainless Steel and Bending Works",
-      excerpt:
-        "A look at our precision stainless fabrication and metal bending capabilities.",
-      date: "",
-      image: images.cap3,
-    },
-  ],
 };
 
 /* ------------------------------------------------------------------ */
