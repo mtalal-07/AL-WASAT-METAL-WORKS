@@ -19,7 +19,7 @@ export type Product = {
 };
 
 const img = (file: string, alt: string) => ({
-  src: `/images/products/${file}`,
+  src: `/images/Products/${file}`,
   alt,
 });
 
