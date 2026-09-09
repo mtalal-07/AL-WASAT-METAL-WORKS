@@ -26,6 +26,7 @@ export const nav = {
     { label: "About", href: "/about" },
     { label: "Services", href: "/services" },
     { label: "Projects", href: "/projects" },
+    { label: "Products", href: "/products" },
     { label: "Contact", href: "/contact" },
   ],
   cta: { label: "Get a Quote", href: "/contact" },
@@ -47,6 +48,7 @@ export const footer = {
       { label: "About", href: "/about" },
       { label: "Services", href: "/services" },
       { label: "Projects", href: "/projects" },
+      { label: "Products", href: "/products" },
       { label: "Contact", href: "/contact" },
     ],
   },
@@ -95,6 +97,8 @@ export const home = {
 
   // The landing "Our Services" teaser is sourced from content/services-data.ts
   // (see `homeServices`) — not from this file.
+  // The landing "Our Products" teaser is sourced from content/products-data.ts
+  // (see `homeProducts`) — not from this file.
 
   servicesBand: {
     statement:
@@ -217,6 +221,29 @@ export const servicesPage = {
   cta: {
     heading: "Looking for a Reliable Metal Fabrication Partner?",
     body: "Get in touch with our team to discuss your project requirements and production needs.",
+    button: { label: "Request a Quote", href: "/contact" },
+  },
+};
+
+/* ------------------------------------------------------------------ */
+/* Products                                                            */
+/* ------------------------------------------------------------------ */
+
+export const productsPage = {
+  meta: {
+    title: "Products — Al Wasat Metal Works",
+    description:
+      "Handrail kits, gratings, fencing panels, acoustic barriers, staircases, and custom steel products engineered and fabricated in the UAE.",
+  },
+  header: {
+    heading: "Our Products",
+    lead: "Engineered metal product lines in steel, stainless steel, and aluminium — ready for specification and installation across the UAE.",
+    image: images.feature,
+  },
+  // The full product list + detail pages are sourced from content/products-data.ts.
+  cta: {
+    heading: "Need a Custom Product Specification?",
+    body: "Get in touch with our team to discuss quantities, finishes, and project-specific requirements.",
     button: { label: "Request a Quote", href: "/contact" },
   },
 };

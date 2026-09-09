@@ -1,9 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export type CapabilityCardProps = {
   title: string;
   description: string;
   image: { src: string; alt: string };
+  href?: string;
   imagePosition?: "top" | "bottom";
   /** Vertical stagger — pushes content down within its (equal-height) grid cell. */
   offset?: boolean;
@@ -44,26 +46,37 @@ export function CapabilityCard({
   title,
   description,
   image,
+  href,
   imagePosition = "bottom",
   offset = false,
   divider = "",
 }: CapabilityCardProps) {
   const imageFirst = imagePosition === "top";
-  return (
-    <div className={`group/cap h-full sm:px-6 lg:px-8 ${divider}`}>
-      <div className={`flex h-full flex-col gap-6 ${offset ? "lg:pt-12" : ""}`}>
-        {imageFirst ? (
-          <>
-            <CardImage image={image} />
-            <CardText title={title} description={description} />
-          </>
-        ) : (
-          <>
-            <CardText title={title} description={description} />
-            <CardImage image={image} />
-          </>
-        )}
-      </div>
+  const content = (
+    <div className={`flex h-full flex-col gap-6 ${offset ? "lg:pt-12" : ""}`}>
+      {imageFirst ? (
+        <>
+          <CardImage image={image} />
+          <CardText title={title} description={description} />
+        </>
+      ) : (
+        <>
+          <CardText title={title} description={description} />
+          <CardImage image={image} />
+        </>
+      )}
     </div>
   );
+
+  const shell = `group/cap h-full sm:px-6 lg:px-8 ${divider}`;
+
+  if (href) {
+    return (
+      <Link href={href} className={`${shell} block`}>
+        {content}
+      </Link>
+    );
+  }
+
+  return <div className={shell}>{content}</div>;
 }
